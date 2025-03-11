@@ -211,6 +211,7 @@ h3.story-link.coming-soon {
   max-height: 70%;
   position: absolute;
   animation: clip 1.5s 0.7s ease both;
+  filter: hue-rotate(-15deg) saturate(1.3);
 }
 
 
@@ -221,17 +222,19 @@ h3.story-link.coming-soon {
    clip-path: polygon(25% 0, 100% 0, 75% 100%, 0% 100%);
 }
 @keyframes clip {
-  0% { clip-path: polygon(62.5% 0, 62.5% 0, 37.5% 100%, 37.5% 100%);}
-  25% {
-    clip-path: polygon(58% 0, 67% 0, 42% 100%, 33% 100%);
-  }
-  45% {
-    clip-path: polygon(58% 0, 67% 0, 42% 100%, 33% 100%);
-  }
-  100%{
+  0% {
+    clip-path: polygon(59% 0, 59% 0, 35% 100%, 35% 100%);
+}
+25% {
+  clip-path: polygon(55% 0, 64% 0, 39% 100%, 30% 100%);
+}
+45% {
+  clip-path: polygon(55% 0, 64% 0, 39% 100%, 30% 100%);
+}
+100% {
     clip-path: polygon(25% 0, 100% 0, 75% 100%, 0% 100%);
     transition-timing-function: ease-out;
-  }
+}
 }
 
 
