@@ -9,11 +9,10 @@ function About(props) {
       <h2>all about me</h2>
       <div class="about-content">
         <p>
-          <strong>Eden Fenn</strong> (she/they) is a writer and software
-          developer. She lives in Baltimore with her partner and a very bad dog.
-          Eden was born in Danvers, MA, a mile from Rebecca Nurse's house.
-          Rebecca was hanged in the Salem Witch Trials; Eden has not yet been
-          caught.
+          <strong>Eden Fenn</strong> (she/they) is a Baltimore-based writer and
+          software developer. Eden was born in Danvers, MA, a mile from Rebecca
+          Nurse's house. Rebecca was hanged in the Salem Witch Trials; Eden has
+          not yet been caught.
         </p>
         <p>
           Eden is represented by{" "}
@@ -22,23 +21,11 @@ function About(props) {
               Lauren Bajek <img src={outboundBlack} />
             </span>
           </a>
-          , and her novel{" "}
-          <Link
-            to="/novel"
-            className="about-link"
-            onClick={() => {
-              props.setRoute("novel");
-            }}
-          >
-            <em>The Dweller's House</em>
-          </Link>{" "}
-          is currently on submsision.
-        </p>
-        <p>
-          Eden's current project is <em>The Candle at Both Ends</em>, a
+          . Eden's current project is <em>The Candle at Both Ends</em>, a
           contemporary fantasy/horror novel about a toxic nonprofit wielding
           magic that consumes its employees' life essence.
         </p>
+        <p></p>
         <p>
           Eden's{" "}
           <Link
@@ -64,9 +51,9 @@ function About(props) {
               email <img src={outboundBlack}></img>
             </span>
           </a>{" "}
-          <a href="https://twitter.com/edenfenn">
+          <a href="https://bsky.app/profile/edenfenn.bsky.social">
             <span className="about-link">
-              twitter <img src={outboundBlack}></img>
+              bluesky <img src={outboundBlack}></img>
             </span>
           </a>{" "}
           <a href="https://instagram.com/eden.fenn">
